@@ -1,0 +1,37 @@
+{
+  "features" : [ {
+    "title" : "Without feature",
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "f9964493c27a3b86",
+      "title" : "Without story",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "7a25bed617164818",
+        "name" : "validateapimethod[Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401]",
+        "title" : "Validateapimethod [Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401]",
+        "time" : {
+          "start" : 1486373714830,
+          "stop" : 1486373720888,
+          "duration" : 6058
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

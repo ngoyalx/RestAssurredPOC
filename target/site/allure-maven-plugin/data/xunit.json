@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1486373714830,
+    "stop" : 1486373720888,
+    "duration" : 6058
+  },
+  "testSuites" : [ {
+    "uid" : "a5f4e40ff97e613",
+    "name" : "Parallel Tests : Rest",
+    "title" : "Parallel Tests : Rest",
+    "time" : {
+      "start" : 1486373714830,
+      "stop" : 1486373720888,
+      "duration" : 6058
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "7a25bed617164818",
+      "name" : "validateapimethod[Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401]",
+      "title" : "Validateapimethod [Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401]",
+      "time" : {
+        "start" : 1486373714830,
+        "stop" : 1486373720888,
+        "duration" : 6058
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}

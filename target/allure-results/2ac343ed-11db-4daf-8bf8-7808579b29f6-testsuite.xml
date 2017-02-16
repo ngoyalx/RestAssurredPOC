@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1486373698672" stop="1486373720972" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Parallel Tests : Rest</name>
+    <title>Parallel Tests : Rest</title>
+    <test-cases>
+        <test-case start="1486373714830" stop="1486373720888" status="passed">
+            <name>validateapimethod[Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="XE-T-NITINGO"/>
+                <label name="thread" value="13108@XE-T-NITINGO.TestNG(12)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
