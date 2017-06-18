@@ -9,6 +9,7 @@ import java.util.Properties;
 import org.json.JSONObject;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
 import com.Actions;
 import com.Property;
@@ -20,14 +21,14 @@ import dataprovider.DataProviderClass;
 
 public class GetAPI {
 	
-	RequestSpecification requestspec;
-	Properties objProp;
-	Property property;
-	Utility utility;
-	List<String[]> testdata;
-	JSONObject objJson;
-	Actions action;
-	DataProviderClass dataprovider;
+	public RequestSpecification requestspec;
+	public Properties objProp;
+	public Property property;
+	public Utility utility;
+	private List<String[]> testdata;
+	private JSONObject objJson;
+	public Actions action;
+	private DataProviderClass dataprovider;
 	
 	public GetAPI(){
 		property = new Property();
@@ -58,6 +59,10 @@ public class GetAPI {
 	}
 	
 	
+	@Factory
+	public Object[] factoryTest(){
+		return new Object[]{new GetAPI(), new GetAPI()};
+	}
 	
 	@Test(dataProviderClass=DataProviderClass.class,dataProvider="testdata")
 	public void validateapimethod(String testcaseid, String teststep, String stepaction, String data) throws IOException{

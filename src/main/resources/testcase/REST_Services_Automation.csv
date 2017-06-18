@@ -1,2 +1,4 @@
 testcase_id,Step,stepaction,data
 Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401
+Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401
+Get_generatetoken,User sends a get request,getRequest,Get#/rest/json/Accounts/#wfsemail#deepak@123#GenerateToken.json#401
